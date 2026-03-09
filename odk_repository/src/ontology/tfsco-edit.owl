@@ -9,35 +9,39 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/tfsco.owl>
-
+Import(<http://purl.obolibrary.org/obo/tfsco/imports/apollo_sv_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/tfsco/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/chmo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/tfsco/imports/cob_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/tfsco/imports/apollo_sv_import.owl>)
-Import(<http://purl.obolibrary.org/obo/tfsco/imports/cob_import.owl>)
-Import(<http://purl.obolibrary.org/obo/tfsco/imports/chebi_import.owl>)
-
-
+Import(<http://purl.obolibrary.org/obo/tfsco/imports/ro_import.owl>)
 Annotation(dcterms:description "Domain ontology for thin-film solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Ontology for thin-film solar cells")
-
 
 Declaration(Class(<http://purl.obolibrary.org/obo/TFSCO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-
 ############################
 #   Annotation Properties
 ############################
 
+# Annotation Property: dcterms:description (description)
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
 
 ############################
 #   Classes

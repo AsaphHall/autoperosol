@@ -38,7 +38,6 @@ dependencies:
 - id: pato
 - id: apollo_sv
 - id: cob
-- id: chebi
 tracker: https://github.com/AsaphHall/odk_test/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/

@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                681f287293ab9a2effc6c685af71ea231039d648d81419f218becd07eb5f55db
+CONFIG_HASH=                1e9cd8593b60905d5f2eeeb1aad411f17ed06a7b41f5b7cd19a7d50b7d3fda4c
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro chmo iao obi pato apollo_sv cob chebi
+IMPORTS =  bfo ro chmo iao obi pato apollo_sv cob
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -465,14 +465,6 @@ $(IMPORTDIR)/cob_import.owl: $(MIRRORDIR)/cob.owl
 	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
 	@false
 
-## Module for ontology: chebi (custom)
-ifeq ($(IMP_LARGE),true)
-$(IMPORTDIR)/chebi_import.owl: $(MIRRORDIR)/chebi.owl
-	@echo "ERROR: You have configured chebi as a custom module;"
-	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
-	@false
-endif # IMP_LARGE=true
-
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -568,16 +560,6 @@ mirror-apollo_sv: | $(TMPDIR)
 mirror-cob: | $(TMPDIR)
 	curl -L $(OBOBASE)/cob.owl --create-dirs -o $(TMPDIR)/cob-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/cob-download.owl -o $(TMPDIR)/$@.owl
-
-
-## ONTOLOGY: chebi
-.PHONY: mirror-chebi
-.PRECIOUS: $(MIRRORDIR)/chebi.owl
-ifeq ($(IMP_LARGE),true)
-mirror-chebi: | $(TMPDIR)
-	curl -L $(OBOBASE)/chebi.owl.gz --create-dirs -o $(MIRRORDIR)/chebi.owl.gz --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(MIRRORDIR)/chebi.owl.gz -o $(TMPDIR)/$@.owl
-endif
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

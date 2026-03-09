@@ -52,10 +52,10 @@ import_group:
 #      module_type: custom
 #    - id: afo
 #      module_type: custom
-    - id: chebi
-      is_large: true
-      use_gzipped: true
-      module_type: custom
+#    - id: chebi
+#      is_large: true
+#      use_gzipped: true
+#      module_type: custom
 robot_java_args: '-Xmx4G'
 robot_report:
   use_labels: TRUE
