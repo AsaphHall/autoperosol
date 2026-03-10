@@ -56,6 +56,7 @@ $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt \
 		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
 		        --term-file $(IMPORTDIR)/obi_terms.txt $(T_IMPORTSEED) \
 		        --select complement --select annotation-properties \
+		 remove --term COB_0000502 \
 		 odk:normalize --base-iri http://purl.obolibrary.org/obo \
 		               --subset-decls true --synonym-decls true \
 		 repair --merge-axiom-annotations true \
@@ -74,6 +75,7 @@ $(IMPORTDIR)/cob_import.owl: $(MIRRORDIR)/cob.owl $(IMPORTDIR)/cob_terms.txt \
 		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
 		        --term-file $(IMPORTDIR)/cob_terms.txt $(T_IMPORTSEED) \
 		        --select complement --select annotation-properties \
+		 remove --term COB_0000502 \
 		 odk:normalize --base-iri http://purl.obolibrary.org/obo \
 		               --subset-decls true --synonym-decls true \
 		 repair --merge-axiom-annotations true \

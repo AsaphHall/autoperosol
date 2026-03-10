@@ -21,7 +21,6 @@ Annotation(dcterms:description "Domain ontology for thin-film solar cells and re
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Ontology for thin-film solar cells")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/TFSCO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -41,15 +40,6 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
-
-
-############################
-#   Classes
-############################
-
-# Class: <http://purl.obolibrary.org/obo/TFSCO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TFSCO_0000000> "root node"@en)
 
 
 )
