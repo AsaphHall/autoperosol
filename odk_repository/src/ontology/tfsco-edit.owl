@@ -181,6 +181,7 @@ Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002007>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002008>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002009>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002010>))
+Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002011>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002013>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002014>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00002015>))
@@ -367,6 +368,7 @@ Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005012>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005013>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005014>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005015>))
+Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005016>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005017>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005018>))
 Declaration(Class(<https://purl.archive.org/tfsco/TFSCO_00005019>))
@@ -635,6 +637,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/TFSCO_1a00e553_b3e5_40bc_a2d4_8256c4e
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TFSCO_3b254162_2b1c_4465_bd17_9a39880d6d6e> "the transferring device impingement angle setting datum is a angle setting datum, that specifies the impingement angle of some transferring device"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TFSCO_3b254162_2b1c_4465_bd17_9a39880d6d6e> "transferring device impingement angle setting datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/TFSCO_3b254162_2b1c_4465_bd17_9a39880d6d6e> <https://purl.archive.org/tfsco/TFSCO_00003309>)
+SubClassOf(<http://purl.obolibrary.org/obo/TFSCO_3b254162_2b1c_4465_bd17_9a39880d6d6e> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005746>))
 
 # Class: <http://purl.obolibrary.org/obo/TFSCO_646a4b3d_a030_4c24_ad44_66adf2b27812> (transferring device pressure)
 
@@ -1549,6 +1552,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002001> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002002> "rotation acceleration setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002002> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002049>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002003> (current-voltage curve)
 
@@ -1566,12 +1570,15 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002004> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002005> "rotation speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002005> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002026>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002006> (duration setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002006> "is a setting datum, that specifies the duration of some occurent"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002006> "duration setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002006> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0001309>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002007> (scan)
 
@@ -1597,6 +1604,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00002010> "eqe curve"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002010> "external quantum efficiency curve"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002010> <http://purl.obolibrary.org/obo/CHMO_0000800>)
+
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002011> (electric power)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002011> "Electric Power is the rate at which electrical energy is transferred by an electric circuit."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00002011> "Elektrische Leistung"@de)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.archive.org/tfsco/TFSCO_00002011> "https://qudt.org/vocab/quantitykind/ElectricPower")
+AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002011> "electric power"@en)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002011> <http://purl.obolibrary.org/obo/PATO_0001024>)
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002013> (final temperature)
 
@@ -1702,6 +1717,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002031> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002032> "a setting datum, that specifies the positioning of the light source in relation to the sample"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002032> "illumination direction setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002032> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001122>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002033> (wavelength step size)
 
@@ -1713,6 +1729,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002033> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002034> "is a setting datum, which indicates the settings for the light intensity"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002034> "light intensity setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002034> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001129>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <https://purl.archive.org/tfsco/TFSCO_00001035>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002035> (pvd source)
 
@@ -1724,6 +1742,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002035> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002036> "is a setting datum, which specifies the settiing of some time range"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002036> "time range setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002036> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001062>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002038> (chemical composition)
 
@@ -1736,12 +1756,16 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002038> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002039> "the cycling time setting datum is a setting datum, that specifies some cycling time"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002039> "cycling time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002039> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/TFSCO_9cdc04b0_0758_4f2e_99e9_4f2c8b6759ff>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002040> (wavelength setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002040> "is a setting datum, which indicates the settings for the wavelength"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002040> "wavelength setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002040> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0001242>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002041> (load balance setting datum)
 
@@ -1850,6 +1874,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002057> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002058> "is a setting datum, which indicates the settings for the scan rate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002058> "scan rate setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002058> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000280>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002059> (drop casting)
 
@@ -1934,24 +1959,29 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002070> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002071> "is a setting datum, which indicates the settings for the process temperature"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002071> "process temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002071> <https://purl.archive.org/tfsco/TFSCO_00002111>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001064>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002072> (process time setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002072> "is a duration setting datum, which indicates the settings for the process time"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002072> "process time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002072> <https://purl.archive.org/tfsco/TFSCO_00002006>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001063>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/COB_0000035>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002073> (hotplate temperature setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002073> "is a setting datum, which indicates the settings for the annealing temperature"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002073> "hotplate temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002073> <https://purl.archive.org/tfsco/TFSCO_00002071>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002001>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002074> (scan rate voltage setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002074> "is a setting datum, which indicates the voltage settings for the scan rate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002074> "scan rate voltage setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002074> <https://purl.archive.org/tfsco/TFSCO_00002058>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002047>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002076> (integration time)
 
@@ -2013,47 +2043,58 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002085> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002086> "a wavelength setting datum that specifies some size configuration of wavelength steps"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002086> "wavelength step size setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002086> <https://purl.archive.org/tfsco/TFSCO_00002040>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002033>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002088> (scan direction setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002088> "is a setting datum, which indicates the settings for the scan direction"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002088> "scan direction setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002088> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002079>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002089> (starting voltage setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002089> "is a setting datum, which indicates the settings for the starting voltage"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002089> "starting voltage setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002089> <https://purl.archive.org/tfsco/TFSCO_00005005>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002089> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002081>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002090> (stopping voltage setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002090> "is a setting datum, which indicates the settings for the stopping voltage"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002090> "stopping voltage setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002090> <https://purl.archive.org/tfsco/TFSCO_00005005>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002082>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002091> (voltage step size setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002091> "is a setting datum, which indicates the settings for the voltage step size"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002091> "voltage step size setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002091> <https://purl.archive.org/tfsco/TFSCO_00005005>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002083>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002092> (settling time setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002092> "is a setting datum, which indicates  the settings for the time"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002092> "settling time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002092> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002077>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002093> (integration time setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002093> "a setting datum that specifies some integration time"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002093> "integration time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002093> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002093> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002093> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002076>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002093> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <https://purl.archive.org/tfsco/TFSCO_00001035>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00002094> (compleance setting datum)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00002094> (compliance setting datum)
 
-AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002094> "compleance setting datum"@en)
+AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002094> "compliance setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002094> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002078>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002095> (pvd process logging)
 
@@ -2114,18 +2155,21 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002103> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002104> "is a setting datum, which indicates the power setting"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002104> "power setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002104> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0001024>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002106> (shutter status setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002106> "a setting datum, that describes the set status of the shutter"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002106> "shutter status setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002106> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002109>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002108> (gas flow rate setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002108> "a setting datum, that specifies the gas flow per time unit"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002108> "gas flow rate setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002108> <https://purl.archive.org/tfsco/TFSCO_00005733>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002108> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002114>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002109> (shutter status)
 
@@ -2142,12 +2186,15 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002110> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002111> "the temperature setting datum is a setting datum, that specifies the thermal energy of some material entity"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002111> "temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002111> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000005>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0000146>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002112> (device temperature setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002112> "is a setting datum, which indicates the settings for the device temperature"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002112> "device temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002112> <https://purl.archive.org/tfsco/TFSCO_00002111>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001061>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002113> (thermal pvd source)
 
@@ -2221,6 +2268,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002123> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002124> "is a setting datum, which indicates the settings for the bias light"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002124> "light bias setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002124> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002123>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002125> (chopper frequency)
 
@@ -2232,6 +2280,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002125> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002126> "the chopper frequency setting datum is a setting datum, which specifies some chopper frequency"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002126> "chopper frequency setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002126> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002126> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000105>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002126> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002125>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002127> (voltage bias)
 
@@ -2243,6 +2293,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002127> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002128> "is a setting datum, which indicates the settings for the voltage bias"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002128> "voltage bias setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002128> <https://purl.archive.org/tfsco/TFSCO_00005005>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002127>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002129> (scan rate wavelength)
 
@@ -2255,6 +2306,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002129> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002130> "is a setting datum, which indicates the wavelength settings for the scan rate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002130> "scan rate wavelength setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002130> <https://purl.archive.org/tfsco/TFSCO_00002058>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002129>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002131> (time quality of a process)
 
@@ -2384,6 +2436,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002150> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002151> "the anti solvent dropping time setting datum is a setting datum, that specifies the dropping duration of some anti solvent"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002151> "anti solvent dropping time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002151> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002150>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002154> (product role)
 
@@ -2406,12 +2460,16 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002156> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002157> "the dropping time setting datum is a setting datum, that specifies the dropping duration of some fluid"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002157> "dropping time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002157> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002156>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002158> (volume setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002158> "a setting datum that specifies some volume configuration"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002158> "volume setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002158> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002158> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000095>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002158> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0000918>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002159> (anti solvent volume setting datum)
 
@@ -2424,6 +2482,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002159> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002160> "a volume setting datum that specifies some volume configuration of some precursor solution"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002160> "precursor solution volume setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002160> <https://purl.archive.org/tfsco/TFSCO_00002158>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/TFSCO_83fe4e42_a134_4866_8aef_054c001ce3db>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003000> (volume measurement datum)
 
@@ -2496,18 +2555,22 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003110> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003111> "the electric current setting datum is a setting datum, that specifies the set value of some current"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003111> "electric current setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003111> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00000063>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003112> (excitation current setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003112> "the excitation current setting datum is a electric current setting datum, that specifies some excitation current"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003112> "excitation current setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003112> <https://purl.archive.org/tfsco/TFSCO_00003111>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00003105>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003114> (excitation wavelength setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003114> "a wavelength setting datum that specifies some excitation wavelength"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003114> "excitation wavelength setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003114> <https://purl.archive.org/tfsco/TFSCO_00002040>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00003108>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <https://purl.archive.org/tfsco/TFSCO_00001035>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003300> (gas quenching with round nozzle)
 
@@ -2548,6 +2611,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003306> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003307> "the velocity setting datum is a setting datum, that specifies the value of some velocity datum"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003307> "velocity setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003307> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0002242>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003308> (round nozzle distance to substrate setting datum)
 
@@ -2567,10 +2631,14 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003309> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003311> "a setting datum, that specifies the duration of the delay of some occurent"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003311> "delay time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003311> <https://purl.archive.org/tfsco/TFSCO_00005085>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00001124>))
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00003312> (<https://purl.archive.org/tfsco/TFSCO_00003312>)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00003312> (starting delay time setting datum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <https://purl.archive.org/tfsco/TFSCO_00003312> "is a delay setting datum, that specifies the amount of time some subprocess is being delayed the start of some occurent"@en)
+AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003312> "starting delay time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003312> <https://purl.archive.org/tfsco/TFSCO_00003311>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00003301>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003313> (velocity at nozzle tip)
 
@@ -2583,6 +2651,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003313> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003314> "is a velocity setting datum, that specifies the velocity setting at some nozzle tip"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003314> "velocity at nozzle tip setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003314> <https://purl.archive.org/tfsco/TFSCO_00003307>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00003313>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003500> (maximum power point tracking)
 
@@ -2679,6 +2748,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00005005> "voltage setting datum"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005005> "electric potential setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005005> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0001464>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005006> (reflection uv-vis curve)
 
@@ -2732,12 +2802,19 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005013> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005014> "a wavelength setting datum that specifies some starting wavelength configuration"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005014> "starting wavelength setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005014> <https://purl.archive.org/tfsco/TFSCO_00002040>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005012>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005015> (stopping wavelength setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005015> "a wavelength setting datum that specifies some stopping wavelength configuration"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005015> "stopping wavelength setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005015> <https://purl.archive.org/tfsco/TFSCO_00002040>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005013>))
+
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005016> (plasma power)
+
+AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005016> "plasma power"@en)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005016> <http://purl.obolibrary.org/obo/PATO_0001024>)
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005017> (spin coater)
 
@@ -2751,6 +2828,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005017> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005018> "a power setting datum, that concretizes the power of some plasma"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005018> "plasma power setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005018> <https://purl.archive.org/tfsco/TFSCO_00002104>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005016>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005019> (plasma)
 
@@ -2762,6 +2840,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005019> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005020> "a setting datum, that concretizes the set amount of some entity"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005020> "mass setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005020> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000002>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0000125>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005021> (air knife pressure)
 
@@ -2797,11 +2877,13 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005025> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005026> "a speed setting datum that specifies some air knife speed"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005026> "air knife speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005026> <https://purl.archive.org/tfsco/TFSCO_00005751>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005025>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005027> (air knife pressure setting datum)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005027> "air knife pressure setting datum"@de)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005027> <https://purl.archive.org/tfsco/TFSCO_00008017>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005021>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005028> (air knife distance to thin-film setting datum)
 
@@ -2814,6 +2896,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005028> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005029> "the air knife impingement angle setting datum is a transferring device impingement setting datum, that specifies the impingement angle of some air knife"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005029> "air knife impingement angle setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005029> <http://purl.obolibrary.org/obo/TFSCO_3b254162_2b1c_4465_bd17_9a39880d6d6e>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005024>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005031> (slot die head)
 
@@ -2869,6 +2952,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005039> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005040> "the pressure setting datum is a setting datum, that specifies the applied force on a surface per unit area of some entity"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005040> "pressure setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005040> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0001025>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005041> (1-d extent setting datum)
 
@@ -2880,12 +2964,14 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005041> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005042> "a setting datum, that specifies the speed of some slot die head"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005042> "slot die head speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005042> <https://purl.archive.org/tfsco/TFSCO_00005043>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005033>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005043> (speed setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005043> "a setting datum that specifies some speed configuration"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005043> "speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005043> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0000008>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005044> (slot die head distance to thin-film setting datum)
 
@@ -2924,6 +3010,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005047> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005048> "a setting datum, that describes the flow rate that is set for a slot die coating process"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005048> "slot die coating flow rate setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005048> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000280>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005039>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005049> (thin-film stack)
 
@@ -3134,6 +3222,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005084> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005085> "a setting datum that specifies some time configuration"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005085> "time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005085> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005086> (print nozzle voltage)
 
@@ -3145,6 +3234,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005086> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005087> "a setting datum, which describes the voltage to which a nozzle is set."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005087> "print nozzle voltage setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005087> <https://purl.archive.org/tfsco/TFSCO_00005005>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005086>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005088> (print head position)
 
@@ -3163,6 +3253,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005089> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005090> "a setting datum, that describes the position to which an print head is set."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005090> "print head position setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005090> <https://purl.archive.org/tfsco/TFSCO_00005089>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005088>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005091> (anti solvent dropping flow rate)
 
@@ -3187,6 +3278,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005093> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005094> "the anti solvent dropping flow rate setting datum is a setting datum, that specifies the flow rate of some anti solvent"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005094> "anti solvent dropping flow rate setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005094> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000280>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005091>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005095> (print nozzle width setting datum)
 
@@ -3201,30 +3294,35 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005095> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005096> "a volume setting datum that specifies some drop volume configuration of some print nozzle"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005096> "print nozzle drop volume setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005096> <https://purl.archive.org/tfsco/TFSCO_00002158>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005096> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005080>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005097> (cartridge pressure setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005097> "a setting datum, that describes the set pressure of an cartridge"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005097> "cartridge pressure setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005097> <https://purl.archive.org/tfsco/TFSCO_00005040>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005097> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005069>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005100> (print speed setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005100> "a setting datum that specifies some print speed"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005100> "print speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005100> <https://purl.archive.org/tfsco/TFSCO_00005043>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005074>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005101> (print head temperature setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005101> "a setting datum that specifies the temperature of some print head"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005101> "print head temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005101> <https://purl.archive.org/tfsco/TFSCO_00002111>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005101> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005070>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005102> (print head angle setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005102> "a setting datum, that describes the set angle of an print head"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005102> "print head angle setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005102> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005079>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005103> (print head width setting datum)
 
@@ -3239,6 +3337,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005103> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005104> "the cartridge temperature setting datum is a temperature setting datum, that specifies the thermal energy of some cartridge"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005104> "cartridge temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005104> <https://purl.archive.org/tfsco/TFSCO_00002111>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005071>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005105> (print nozzle distance setting datum)
 
@@ -3324,9 +3423,9 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005720> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005723> "tip diameter"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005723> <http://purl.obolibrary.org/obo/PATO_0001334>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00005724> (round nozzle top diameter)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00005724> (round nozzle tip diameter)
 
-AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005724> "round nozzle top diameter"@en)
+AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005724> "round nozzle tip diameter"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005724> <https://purl.archive.org/tfsco/TFSCO_00005723>)
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005725> (output velocity)
@@ -3351,18 +3450,21 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005731> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005732> "the gas velocity setting datum is a velocity setting datum, that specifies the set velocity value of some gas stream"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005732> "gas velocity setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005732> <https://purl.archive.org/tfsco/TFSCO_00003307>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005732> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005731>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005733> (flow rate setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005733> "the flow rate setting datum is a setting datum, that specifies the set flow rate value"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005733> "flow rate setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005733> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005733> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/PATO_0001574>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005734> (volumetric flow rate setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005734> "the volumetric flow rate setting datum is a flow rate setting datum, that specifies the set flow rate value of some liquid"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005734> "volumetric flow rate setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005734> <https://purl.archive.org/tfsco/TFSCO_00005733>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005734> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00002114>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005739> (distance to substrate setting datum)
 
@@ -3381,6 +3483,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005740> <https://purl.archive
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005741> "pipette tip opening diameter setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005741> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005741> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005717>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005742> (angle measurement datum)
 
@@ -3411,6 +3514,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005750> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005751> "the nozzle speed setting datum is a speed setting datum, that specifies the amount of rate of movement of some nozzle"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005751> "nozzle speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005751> <https://purl.archive.org/tfsco/TFSCO_00005043>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005751> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00008005>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005753> (round nozzle impingement angle)
 
@@ -3423,6 +3527,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005753> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005755> "the round nozzle impingement angle setting datum is a transferring device impingement angle setting datum, that specifies the impingement angle of some round nozzle"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005755> "round nozzle impingement angle setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005755> <http://purl.obolibrary.org/obo/TFSCO_3b254162_2b1c_4465_bd17_9a39880d6d6e>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005755> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005753>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005756> (air knife impingement angle measurement datum)
 
@@ -3450,6 +3555,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005760> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005762> "the number of averages setting datum is a setting datum that is the specification of the amount of averages"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005762> "number of averages setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005762> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005762> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00003100>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005762> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://purl.archive.org/tfsco/TFSCO_00001035>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005763> (count)
 
@@ -3524,6 +3631,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007009> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007010> "the blade speed setting datum is a speed setting datum, that specifies the relative rate of movement between some blade and some material entity"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007010> "blade traverse speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007010> <https://purl.archive.org/tfsco/TFSCO_00005043>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007009>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007011> (blade angle)
 
@@ -3536,6 +3644,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007011> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007012> "the blade angle setting datum is a angle setting datum, that specifies the angle between some blade and some material entity"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007012> "blade angle setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007012> <https://purl.archive.org/tfsco/TFSCO_00003309>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007011>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007013> (blade pressure)
 
@@ -3548,6 +3657,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007013> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007014> "the blade pressure setting datum is a pressure setting datum, that specifies the force per area applied by some blade"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007014> "blade pressure setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007014> <https://purl.archive.org/tfsco/TFSCO_00005040>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007013>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007015> (doctor blade)
 
@@ -3572,10 +3682,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007018> "solution temperature"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007018> <http://purl.obolibrary.org/obo/PATO_0000146>)
 
-# Class: <https://purl.archive.org/tfsco/TFSCO_00007019> (precursor temperature)
+# Class: <https://purl.archive.org/tfsco/TFSCO_00007019> (precursor solution temperature)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007019> "the precursor solution temperature is a solution temperature, that is the physical quality of the thermal energy of some precursor solution"@en)
-AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007019> "precursor temperature"@en)
+AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007019> "precursor solution temperature"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007019> <https://purl.archive.org/tfsco/TFSCO_00007018>)
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007020> (solution temperature setting datum)
@@ -3583,12 +3693,14 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007019> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007020> "The solution temperature setting datum is a temperature setting datum, that specifies the temperature settings of some solution"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007020> "solution temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007020> <https://purl.archive.org/tfsco/TFSCO_00002111>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007018>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007021> (precursor solution temperature setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007021> "The precursor solution temperature setting datum is a solution temperature setting datum, that specifies the temperature settings for some precursor solution"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007021> "precursor solution temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007021> <https://purl.archive.org/tfsco/TFSCO_00007020>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007019>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007023> (cutoff wavelength)
 
@@ -3645,6 +3757,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007030> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007031> "the electric currentl limit setting datum is a limit setting datum, that specifies some value some electric current can not exceed"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007031> "electric current limit setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007031> <https://purl.archive.org/tfsco/TFSCO_00007054>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007030>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007032> (printing resolution)
 
@@ -3657,6 +3770,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00007033> "voltage limit setting datum"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007033> "electric potential limit setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007033> <https://purl.archive.org/tfsco/TFSCO_00007054>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007028>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007034> (device temperature measurement datum)
 
@@ -3685,6 +3799,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007036> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007037> "the exposure time setting datum is a time setting datum, that specifies the time some sensor is exposed to some signal"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007037> "exposure time setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007037> <https://purl.archive.org/tfsco/TFSCO_00005085>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007038>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007038> (exposure time)
 
@@ -3748,6 +3863,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00007047> "film speed setting datum"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007047> "iso speed setting datum"@de)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007047> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007046>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007049> (active area heigth)
 
@@ -3784,6 +3900,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007053> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007054> "the limit setting datum is a setting datum, that specifies the restriction of some entity during some process"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007054> "limit setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007054> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007051>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007056> (aperture datum)
 
@@ -3851,6 +3968,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007068> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007069> "the camera angle setting datum is a angle setting datum, that specifies the angle between some camera and some object"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007069> "camera angle setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007069> <https://purl.archive.org/tfsco/TFSCO_00003309>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00007068>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00008000> (fluid base quenching)
 
@@ -3866,6 +3984,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008001> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00008003> "round nozzle tip diameter setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008003> <http://purl.obolibrary.org/obo/IAO_0000140>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005724>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00008004> (nozzle distance to substrate setting datum)
 
@@ -3883,6 +4002,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008005> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00008006> "round nozzle speed setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008006> <https://purl.archive.org/tfsco/TFSCO_00005751>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005750>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00008007> (reynolds number)
 
@@ -3929,27 +4049,32 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008014> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00008015> "transferring device pressure setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008015> <https://purl.archive.org/tfsco/TFSCO_00005040>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/TFSCO_646a4b3d_a030_4c24_ad44_66adf2b27812>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00008016> (pipette pressure setting datum)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00008016> "pipette pressure setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008016> <https://purl.archive.org/tfsco/TFSCO_00008015>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00008014>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00008017> (nozzle pressure setting datum)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00008017> "nozzle pressure setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008017> <https://purl.archive.org/tfsco/TFSCO_00008015>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005022>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00008018> (round nozzle pressure setting datum)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00008018> "round nozzle pressure setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008018> <https://purl.archive.org/tfsco/TFSCO_00008017>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00008013>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00009995> (substrate temperature setting datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00009995> "a setting datum that specifies the temperature of some substrate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00009995> "substrate temperature setting datum"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00009995> <https://purl.archive.org/tfsco/TFSCO_00002111>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00009995> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00009996>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00009996> (substrate temperature)
 

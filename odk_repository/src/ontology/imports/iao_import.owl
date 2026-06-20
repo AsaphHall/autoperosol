@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/tfsco/imports/iao_import.owl>
-<http://purl.obolibrary.org/obo/tfsco/releases/2026-06-16/imports/iao_import.owl>
+<http://purl.obolibrary.org/obo/tfsco/releases/2026-06-20/imports/iao_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/iao/2026-03-30/iao.owl>)
-Annotation(owl:versionInfo "2026-06-16")
+Annotation(owl:versionInfo "2026-06-20")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/APOLLO_SV_00000796>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
@@ -73,6 +73,8 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000418>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000419>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000581>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000583>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000295>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -249,6 +251,22 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000583> "has
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000583> <http://purl.obolibrary.org/obo/BFO_0000051>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000583> <http://purl.obolibrary.org/obo/IAO_0000582>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000583> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectComplementOf(<http://purl.obolibrary.org/obo/IAO_0000416>)))
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000293> (has specified input)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000293> "The inverse property of is specified input of")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Alan Ruttenberg"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Larry Hunter")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Melanie Coutot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000293> "has specified input"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/RO_0000057>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000295>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/COB_0000035>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000295> (is specified input of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000295> "is specified input of"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/OBI_0000299> (has specified output)
 
