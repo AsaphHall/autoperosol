@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                1e9cd8593b60905d5f2eeeb1aad411f17ed06a7b41f5b7cd19a7d50b7d3fda4c
+CONFIG_HASH=                afe5ca42b71a6afb0e3c03dcf6a14c8f32c0d4c584293324325082da98365df3
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro chmo iao obi pato apollo_sv cob
+IMPORTS =  bfo ro chmo iao obi pato cob
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -453,12 +453,6 @@ $(IMPORTDIR)/pato_import.owl: $(MIRRORDIR)/pato.owl
 	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
 	@false
 
-## Module for ontology: apollo_sv (custom)
-$(IMPORTDIR)/apollo_sv_import.owl: $(MIRRORDIR)/apollo_sv.owl
-	@echo "ERROR: You have configured apollo_sv as a custom module;"
-	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
-	@false
-
 ## Module for ontology: cob (custom)
 $(IMPORTDIR)/cob_import.owl: $(MIRRORDIR)/cob.owl
 	@echo "ERROR: You have configured cob as a custom module;"
@@ -544,14 +538,6 @@ mirror-obi: | $(TMPDIR)
 mirror-pato: | $(TMPDIR)
 	curl -L $(OBOBASE)/pato.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/pato-download.owl -o $(TMPDIR)/$@.owl
-
-
-## ONTOLOGY: apollo_sv
-.PHONY: mirror-apollo_sv
-.PRECIOUS: $(MIRRORDIR)/apollo_sv.owl
-mirror-apollo_sv: | $(TMPDIR)
-	curl -L $(OBOBASE)/apollo_sv.owl --create-dirs -o $(TMPDIR)/apollo_sv-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(TMPDIR)/apollo_sv-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: cob

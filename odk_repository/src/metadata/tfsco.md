@@ -31,13 +31,6 @@ products:
     name: "Ontology for thin-film solar cells additional release in OBOJSon format"
 dependencies:
 - id: bfo
-- id: ro
-- id: chmo
-- id: iao
-- id: obi
-- id: pato
-- id: apollo_sv
-- id: cob
 tracker: https://github.com/AsaphHall/odk_test/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/

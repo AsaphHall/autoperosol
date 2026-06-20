@@ -44,8 +44,8 @@ import_group:
       module_type: custom
     - id: pato
       module_type: custom
-    - id: apollo_sv
-      module_type: custom
+#    - id: apollo_sv
+#      module_type: custom
     - id: cob
       module_type: custom
 #    - id: uo
