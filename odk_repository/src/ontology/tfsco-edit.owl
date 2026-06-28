@@ -16,6 +16,7 @@ Import(<http://purl.obolibrary.org/obo/tfsco/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tfsco/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/tfsco/imports/uo_import.owl>)
 Annotation(dcterms:description "Domain ontology for thin-film solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Ontology for thin-film solar cells")
@@ -691,6 +692,62 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TFSCO_f7e5c5e2_4ea7_4455_815c_ecaaaadf5a6c> "print head distance to substrate setting datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/TFSCO_f7e5c5e2_4ea7_4455_815c_ecaaaadf5a6c> <https://purl.archive.org/tfsco/TFSCO_00005739>)
 SubClassOf(<http://purl.obolibrary.org/obo/TFSCO_f7e5c5e2_4ea7_4455_815c_ecaaaadf5a6c> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000418> <https://purl.archive.org/tfsco/TFSCO_00005078>))
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000004> (electric current unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000004> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000045> (base unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000045> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000047> (area unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000047> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000048> (acceleration unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000048> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000050> (angular acceleration unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000050> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000060> (speed/velocity unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000060> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000109> (pressure unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000109> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000111> (energy unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000111> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000113> (power unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000113> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000121> (angle unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000121> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000182> (density unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000182> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000186> (dimensionless unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000186> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000217> (electric potential difference unit)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000217> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000219> (electric charge)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000219> <http://purl.obolibrary.org/obo/IAO_0000003>)
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00000001> (solar cell)
 

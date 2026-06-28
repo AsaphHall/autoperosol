@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                afe5ca42b71a6afb0e3c03dcf6a14c8f32c0d4c584293324325082da98365df3
+CONFIG_HASH=                c9e950f01d5400ea546910e6865d3b9d33c22bb37c1d643734db51c41ce6742d
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro chmo iao obi pato cob
+IMPORTS =  bfo ro chmo iao obi pato cob uo
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -459,6 +459,12 @@ $(IMPORTDIR)/cob_import.owl: $(MIRRORDIR)/cob.owl
 	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
 	@false
 
+## Module for ontology: uo (custom)
+$(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl
+	@echo "ERROR: You have configured uo as a custom module;"
+	@echo "       This rule needs to be overwritten in tfsco.Makefile!"
+	@false
+
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -546,6 +552,14 @@ mirror-pato: | $(TMPDIR)
 mirror-cob: | $(TMPDIR)
 	curl -L $(OBOBASE)/cob.owl --create-dirs -o $(TMPDIR)/cob-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/cob-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: uo
+.PHONY: mirror-uo
+.PRECIOUS: $(MIRRORDIR)/uo.owl
+mirror-uo: | $(TMPDIR)
+	curl -L $(OBOBASE)/uo.owl --create-dirs -o $(TMPDIR)/uo-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/uo-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

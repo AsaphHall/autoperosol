@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/tfsco/imports/obi_import.owl>
-<http://purl.obolibrary.org/obo/tfsco/releases/2026-06-21/imports/obi_import.owl>
+<http://purl.obolibrary.org/obo/tfsco/releases/2026-06-28/imports/obi_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2026-05-08/obi.owl>)
-Annotation(owl:versionInfo "2026-06-21")
+Annotation(owl:versionInfo "2026-06-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
@@ -119,8 +119,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000095>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000270>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000280>))
 Declaration(Class(owl:Thing))
@@ -1466,6 +1468,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000006> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000051> "concentration unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000051> <http://purl.obolibrary.org/obo/IAO_0000003>)
 
+# Class: <http://purl.obolibrary.org/obo/UO_0000060> (speed/velocity unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000060> "speed/velocity unit")
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000060> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
 # Class: <http://purl.obolibrary.org/obo/UO_0000095> (volume unit)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000095> "volume unit")
@@ -1475,6 +1482,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000095> <http://purl.obolibrary.o
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000105> "frequency unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000105> <http://purl.obolibrary.org/obo/IAO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000109> (pressure unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000109> "pressure unit")
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000109> <http://purl.obolibrary.org/obo/IAO_0000003>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000270> (volumetric flow rate unit)
 

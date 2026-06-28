@@ -56,6 +56,8 @@ import_group:
 #      is_large: true
 #      use_gzipped: true
 #      module_type: custom
+    - id: uo
+      module_type: custom
 robot_java_args: '-Xmx4G'
 robot_report:
   use_labels: TRUE

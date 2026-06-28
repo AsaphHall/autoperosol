@@ -1,0 +1,161 @@
+Prefix(:=<http://purl.obolibrary.org/obo/tfsco/imports/uo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/tfsco/imports/uo_import.owl>
+<http://purl.obolibrary.org/obo/tfsco/releases/2026-06-28/imports/uo_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/uo/releases/2026-01-16/uo.owl>)
+Annotation(owl:versionInfo "2026-06-28")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000095>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000186>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000217>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000270>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000280>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000001> (length unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000001> "A unit which is a standard measure of the distance between two points.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000001> "length unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000002> (mass unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000002> "A unit which is a standard measure of the amount of matter/energy of a physical object.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000002> "mass unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000003> (time unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000003> "A unit which is a standard measure of the dimension in which events occur in sequence.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000003> "time unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000004> (electric current unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000004> "A unit which is a standard measure of the flow of electric charge.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000004> "electric current unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000005> (temperature unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000005> "A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000005> "temperature unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000045> (base unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000045> "A unit which is one of a particular measure to which all measures of that type can be related.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000045> "base unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000047> (area unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000047> "A unit which is a standard measure of the amount of a 2-dimensional flat surface.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000047> "area unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000048> (acceleration unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000048> "A unit which is a standard measure of the rate of change of velocity in either speed or direction.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000048> "acceleration unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000050> (angular acceleration unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000050> "A unit which is a standard measure of the rate of change of angular velocity.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000050> "angular acceleration unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000051> (concentration unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000051> "A unit which represents a standard measurement of how much of a given substance there is mixed with another substance.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000051> "concentration unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000060> (speed/velocity unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000060> "A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000060> "speed/velocity unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000095> (volume unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000095> "A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000095> "volume unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000105> (frequency unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000105> "A unit which is a standard measure of the number of repetitive actions in a particular time.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000105> "frequency unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000109> (pressure unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000109> "A unit which is a standard measure of the force applied to a given area.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000109> "pressure unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000111> (energy unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000111> "A unit which is a standard measure of the work done by a certain force (gravitational, electric, magnetic, force of inertia, etc).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000111> "energy unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000113> (power unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000113> "A unit which is a standard measure power or the rate of doing work.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000113> "power unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000121> (angle unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000121> "A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000121> "angle unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000182> (density unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000182> "A unit which is a standard measure of the influence exerted by some mass.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000182> "density unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000186> (dimensionless unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000186> "A unit which is a standard measure of physical quantity consisting of only a numerical number without any units.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000186> "dimensionless unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000217> (electric potential difference unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000217> "A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000217> "electric potential difference unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000219> (electric charge)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000219> "A unit which is a standard measure of the quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000219> "electric charge")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000270> (volumetric flow rate unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000270> "A unit which is a standard measure of the volume of fluid which passes through a given surface per unit time .")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000270> "volumetric flow rate unit")
+
+# Class: <http://purl.obolibrary.org/obo/UO_0000280> (rate unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000280> "A unit which represents a standard measurement occurrence of a process per unit time.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000280> "rate unit")
+
+
+)

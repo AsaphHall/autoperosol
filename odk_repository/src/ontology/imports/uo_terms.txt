@@ -1,0 +1,23 @@
+http://purl.obolibrary.org/obo/UO_0000048 # acceleration unit
+http://purl.obolibrary.org/obo/UO_0000121 # angle unit
+http://purl.obolibrary.org/obo/UO_0000050 # angular acceleration unit
+http://purl.obolibrary.org/obo/UO_0000047 # area unit
+http://purl.obolibrary.org/obo/UO_0000045 # base unit
+http://purl.obolibrary.org/obo/UO_0000051 # concentration unit
+http://purl.obolibrary.org/obo/UO_0000182 # density unit
+http://purl.obolibrary.org/obo/UO_0000186 # dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000219 # electric charge 
+http://purl.obolibrary.org/obo/UO_0000004 # electric current unit
+http://purl.obolibrary.org/obo/UO_0000217 # electric potential difference unit
+http://purl.obolibrary.org/obo/UO_0000111 # energy unit
+http://purl.obolibrary.org/obo/UO_0000105 # frequency unit
+http://purl.obolibrary.org/obo/UO_0000001 # length unit
+http://purl.obolibrary.org/obo/UO_0000002 # mass unit
+http://purl.obolibrary.org/obo/UO_0000113 # power unit
+http://purl.obolibrary.org/obo/UO_0000109 # pressure unit
+http://purl.obolibrary.org/obo/UO_0000280 # rate unit
+http://purl.obolibrary.org/obo/UO_0000060 # speed/velocity unit
+http://purl.obolibrary.org/obo/UO_0000005 # temperature unit
+http://purl.obolibrary.org/obo/UO_0000003 # time unit
+http://purl.obolibrary.org/obo/UO_0000095 # volume unit
+http://purl.obolibrary.org/obo/UO_0000270 # volumetric flow rate unit
