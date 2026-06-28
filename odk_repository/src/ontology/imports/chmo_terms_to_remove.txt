@@ -1,0 +1,28 @@
+http://purl.obolibrary.org/obo/IAO_0000098 # data format specification
+http://purl.obolibrary.org/obo/IAO_0000102 # data about ontology part
+http://purl.obolibrary.org/obo/IAO_0000183 # dendogram
+
+http://purl.obolibrary.org/obo/COB_0000013 # molecule
+http://purl.obolibrary.org/obo/COB_0000080 # complex of molecules
+
+http://purl.obolibrary.org/obo/OBCS_0000120 # data matrix
+http://purl.obolibrary.org/obo/OBCS_0000122 # transformed data matrix
+http://purl.obolibrary.org/obo/OBCS_0000123 # transformed data set
+http://purl.obolibrary.org/obo/OBCS_0000233 # transformed data item
+
+http://purl.obolibrary.org/obo/GO_0005575 # cellular component
+
+http://purl.obolibrary.org/obo/OBI_0000071 # quantitative confidence value
+http://purl.obolibrary.org/obo/OBI_0000112 # specimen role
+http://purl.obolibrary.org/obo/OBI_0000245 # organization
+http://purl.obolibrary.org/obo/OBI_0000648 # clustered data set
+http://purl.obolibrary.org/obo/OBI_0000659 # specimen collection process
+http://purl.obolibrary.org/obo/OBI_0000684 # specimen collection objective
+http://purl.obolibrary.org/obo/OBI_0000947 # service provider role
+http://purl.obolibrary.org/obo/OBI_0000953 # processed specimen
+http://purl.obolibrary.org/obo/OBI_0000963 # categorical label
+http://purl.obolibrary.org/obo/OBI_0002076 # collection of specimens
+http://purl.obolibrary.org/obo/OBI_0100051 # specimen
+http://purl.obolibrary.org/obo/OBI_0200111 # data visualisation
+http://purl.obolibrary.org/obo/OBI_0200175 # class discovery data transformation
+http://purl.obolibrary.org/obo/OBI_0200178 # class discovery objective

@@ -1,0 +1,37 @@
+http://purl.obolibrary.org/obo/OBI_0000023 # classified data set
+http://purl.obolibrary.org/obo/OBI_0000112 # specimen role
+http://purl.obolibrary.org/obo/OBI_0000245 # organization
+http://purl.obolibrary.org/obo/OBI_0000427 # enzyme
+http://purl.obolibrary.org/obo/OBI_0000648 # clustered data set
+http://purl.obolibrary.org/obo/OBI_0000659 # specimen collection
+http://purl.obolibrary.org/obo/OBI_0000663 # class prediction data transformation
+http://purl.obolibrary.org/obo/OBI_0000684 # specimen collection objective
+http://purl.obolibrary.org/obo/OBI_0000704 # decision tree induction objective
+http://purl.obolibrary.org/obo/OBI_0000707 # decision tree building data transformation
+http://purl.obolibrary.org/obo/OBI_0000726 # peak matching
+http://purl.obolibrary.org/obo/OBI_0000947 # service provider role
+http://purl.obolibrary.org/obo/OBI_0000953 # processed specimen
+http://purl.obolibrary.org/obo/OBI_0000963 # categorical label
+http://purl.obolibrary.org/obo/OBI_0001933 # value specification
+http://purl.obolibrary.org/obo/OBI_0002076 # collection of specimens
+http://purl.obolibrary.org/obo/OBI_0100051 # specimen
+http://purl.obolibrary.org/obo/OBI_0200111 # data visualisation
+http://purl.obolibrary.org/obo/OBI_0200171 # partitioning data trasnformation
+http://purl.obolibrary.org/obo/OBI_0200172 # partitioning objective
+http://purl.obolibrary.org/obo/OBI_0200175 # class discovery data transformation
+http://purl.obolibrary.org/obo/OBI_0200178 # class discovery objective
+http://purl.obolibrary.org/obo/OBI_0200179 # class prediction objective
+http://purl.obolibrary.org/obo/OBI_0600008 # aquisition
+
+http://purl.obolibrary.org/obo/COB_0000013 # molecule
+http://purl.obolibrary.org/obo/COB_0000080 # complex of molecules
+
+http://purl.obolibrary.org/obo/GO_0003674 # molecular function
+http://purl.obolibrary.org/obo/GO_0005575 # cellular component
+
+http://purl.obolibrary.org/obo/IAO_0000010 # software
+http://purl.obolibrary.org/obo/IAO_0000078 # data about an ontology part
+http://purl.obolibrary.org/obo/IAO_0000098 # data Format specification
+http://purl.obolibrary.org/obo/IAO_0000102 # data about ontology part
+http://purl.obolibrary.org/obo/IAO_0000183 # dendogram
+http://purl.obolibrary.org/obo/IAO_0000310 # document
