@@ -1812,6 +1812,9 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002034> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002035> "pvd source"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002035> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000140>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0001024>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002109>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002036> (time range setting datum)
 
@@ -2279,6 +2282,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002112> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002113> "thermal pvd source"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002113> <https://purl.archive.org/tfsco/TFSCO_00002035>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002113> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000146>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002114> (gas flow rate)
 
@@ -2611,6 +2615,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003105> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003107> "an excitation source is a source that fullfills some excitation function"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003107> "excitation source"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003107> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://purl.archive.org/tfsco/TFSCO_00001035>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000374>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003108> (excitation wavelength)
 
@@ -2901,6 +2907,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.archive.org/tfsco/TFSCO_00005017> "http://purl.obolibrary.org/obo/ERO_0000850")
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005017> "spin coater"@de)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005017> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/CHMO_0001472>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002026>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002049>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005018> (plasma power setting datum)
 
@@ -2983,6 +2992,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.archive.org/tfsco/TFSCO_00005031> "Wikipedia. Retrieved from: https://en.wikipedia.org/wiki/Slot-die_coating. Retrieved on: 05.12.2023"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005031> "slot die head"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00005037>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://purl.archive.org/tfsco/TFSCO_00000075>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/TFSCO_91b2f4c0_dc34_42fe_92d8_b2536bc97b31>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005033>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005034>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005032> (air knife gas quenching)
 
@@ -3019,6 +3033,9 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005036> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005037> "a shim that is used to alter the width of the slot die heads channel"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005037> "slot die shim"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005037> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://purl.archive.org/tfsco/TFSCO_00005031>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005035>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005036>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005039> (slot die coating flow rate)
 
@@ -3181,12 +3198,24 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005063> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005064> "an object through which a chemical gets distributed onto a surface"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005064> "print head"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00005065>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005066>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005070>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005072>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005074>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005078>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005079>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005088>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005065> (print nozzle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005065> "a print nozzle is a transferring object consisting of jet port with an opening for regulating and/or directing the flow of fluid or ink."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005065> "print nozzle"@de)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005065> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://purl.archive.org/tfsco/TFSCO_00005064>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005067>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005080>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005086>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005066> (print head width)
 
@@ -3204,6 +3233,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.archive.org/tfsco/TFSCO_00005068> "Wikimedia Foundation. (2023, October 31). Ink cartridge. Wikipedia. https://en.wikipedia.org/wiki/Ink_cartridge. Retrieved on: 22.11.2023"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005068> "cartridge"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005068> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://purl.archive.org/tfsco/TFSCO_00002053>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005069>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005071>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005069> (cartridge pressure)
 
