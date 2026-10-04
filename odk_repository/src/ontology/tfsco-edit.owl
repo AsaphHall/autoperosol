@@ -601,6 +601,16 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002793> (sensor)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002793> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007029>))
+
+# Class: <http://purl.obolibrary.org/obo/COB_0001300> (device)
+
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0001300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/COB_0000110>))
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0001300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000034>))
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0001300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001061>))
+
 # Class: <http://purl.obolibrary.org/obo/IAO_0000101> (image)
 
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000101> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00007050>))
@@ -618,6 +628,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000408> ObjectSomeValuesFrom(<ht
 # Class: <http://purl.obolibrary.org/obo/OBI_0200000> (data transformation)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0200000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <https://purl.archive.org/tfsco/TFSCO_00002030>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400013> (band pass filter)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400013> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007024>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400013> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007025>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400067> (long pass filter)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400067> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007023>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400095> (short pass filter)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400095> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007023>))
 
 # Class: <http://purl.obolibrary.org/obo/TFSCO_0000000> (root node)
 
@@ -758,6 +781,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00000001> "pv cell"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00000001> "solar cell"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> <https://purl.archive.org/tfsco/TFSCO_00002042>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001018>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001025>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002045>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002140>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002141>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002142>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002143>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002144>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002146>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00000002> (carrier)
 
@@ -1199,6 +1231,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001025> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00001026> "a object consisting of multiple cells"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001026> "solar module"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001026> <https://purl.archive.org/tfsco/TFSCO_00002042>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001004>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001026> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00000001>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00001030> (pipetting)
 
@@ -1858,6 +1892,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00002042> "pv device"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002042> "photovoltaic device"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> <http://purl.obolibrary.org/obo/COB_0001300>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001003>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001004>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001034>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001037>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001103>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001104>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001105>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001106>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001107>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001108>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002043> (sublayer)
 
@@ -2340,6 +2384,11 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002121> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002122> "a substrate is a processed material which is used in synthesis and deposition of thin-film layers."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002122> "substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002122> <http://purl.obolibrary.org/obo/COB_0000026>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000146>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005073>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005713>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005714>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00005718>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002123> (light bias)
 
@@ -2603,6 +2652,10 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003100> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003104> "a camera is a device, that is capable of creating an image by converting incoming light into an electrical signal"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003104> "camera"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003104> <http://purl.obolibrary.org/obo/COB_0001300>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHMO_0002793>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007038>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007046>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007060>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003105> (excitation current)
 
@@ -2803,6 +2856,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003508> <https://purl.archive
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005000> (sample)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005000> "sample"@en)
+EquivalentClasses(<https://purl.archive.org/tfsco/TFSCO_00005000> ObjectIntersectionOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/COB_0001300> <https://purl.archive.org/tfsco/TFSCO_00002122>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/COB_0000110>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/OBI_0000070>))))
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005000> <http://purl.obolibrary.org/obo/COB_0000026>)
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005001> (uv/vis spectroscopy)
@@ -3115,6 +3169,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.archive.org/tfsco/TFSCO_00005049> "Wikimedia Foundation. (2023, September 29). Thin film. Wikipedia. https://en.wikipedia.org/wiki/Thin_film"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005049> "thin-film stack"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005049> <http://purl.obolibrary.org/obo/COB_0000026>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00000007>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005050> (illuminated jv analysis)
 
@@ -3192,6 +3247,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005062> ObjectSomeValuesFrom(
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005063> "thin-film solar cell"@de)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005063> <https://purl.archive.org/tfsco/TFSCO_00000001>)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005063> <https://purl.archive.org/tfsco/TFSCO_00005049>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005063> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00000008>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005064> (print head)
 
@@ -3473,6 +3529,10 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005702> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005704> "hotplate"@de)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005704> <http://purl.obolibrary.org/obo/COB_0001300>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005704> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <https://purl.archive.org/tfsco/TFSCO_00001033>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005704> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000052>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005704> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0001323>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005704> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00002001>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005708> (infrared light source)
 
@@ -3775,6 +3835,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007014> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007015> "a doctor blade is a device, that is being used to remove excess ink by traversing over some surface during wet chemical deposition"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007015> "doctor blade"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007015> <http://purl.obolibrary.org/obo/COB_0001300>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007016>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007017>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007016> (doctor blade width)
 
@@ -4210,6 +4272,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00009998> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00009999> "a photovaltaic device which consists of multiple distinct stacked  solarcells"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00009999> "stacked tandem solar cell"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00009999> <https://purl.archive.org/tfsco/TFSCO_00002042>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00009999> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <https://purl.archive.org/tfsco/TFSCO_00000001>))
 
 
 )
