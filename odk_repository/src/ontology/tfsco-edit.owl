@@ -2726,12 +2726,14 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003301> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003302> "the round nozzle distance to substrate is a nozzle distance to substrate, that describes the distance between some round nozzle and some substrate."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003302> "round nozzle distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003302> <https://purl.archive.org/tfsco/TFSCO_00003303>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00003308>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003303> (nozzle distance to substrate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003303> "the nozzle distance to substrate is a distance to substrate, that describes the distance between some nozzle and some substrate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003303> "nozzle distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003303> <https://purl.archive.org/tfsco/TFSCO_00005720>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003303> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00008004>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003304> (nozzle shape)
 
@@ -3001,6 +3003,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005022> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005023> "the air knife distance to thin-film is a nozzle distance to thin flm, that describes the distance between some air knife and some thin-film"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005023> "air knife distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005023> <https://purl.archive.org/tfsco/TFSCO_00003303>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005028>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005024> (air knife impingement angle)
 
@@ -3069,6 +3072,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005033> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005034> "the distance of the slot die head to the thin-film  in slot die coating."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005034> "slot die head distance to thin-film"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005034> <https://purl.archive.org/tfsco/TFSCO_00005720>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005044>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005035> (slot die shim width)
 
@@ -3081,6 +3085,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005035> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005036> "the thickness of a shim used in a slot die head"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005036> "slot die shim thickness"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005036> <http://purl.obolibrary.org/obo/PATO_0000915>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005046>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00005037>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005037> (slot die shim)
 
@@ -3314,6 +3320,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005071> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005072> "is a nozzle distance that describes the distance between a printing nozzle and some material entity"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005072> "print nozzle distance"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005072> <https://purl.archive.org/tfsco/TFSCO_00005720>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005105>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005073> (substrate height)
 
@@ -3347,6 +3354,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005077> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005078> "the print head distance to substrate is a distance to substrate, that describe the distance between some print head and some substrate."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005078> "print head distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005078> <https://purl.archive.org/tfsco/TFSCO_00005720>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <http://purl.obolibrary.org/obo/TFSCO_f7e5c5e2_4ea7_4455_815c_ecaaaadf5a6c>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005079> (print head angle)
 
@@ -3432,6 +3440,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005091> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005092> "the anti solvent dropping height is a dnozzle distance to substrate, that describes the height out of which some anti solvent is dropped onto some entity."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005092> "anti solvent dropping height"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005092> <https://purl.archive.org/tfsco/TFSCO_00003303>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005093>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005093> (anti solvent dropping height setting datum)
 
@@ -3577,6 +3586,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005716> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005717> "pipette tip opening diameter"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005717> <https://purl.archive.org/tfsco/TFSCO_00005723>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005717> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005741>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005718> (substrate area)
 
@@ -3588,6 +3598,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005718> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005720> "the distance to substrate is a length, that describes the distance between some continuant and some substrate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005720> "distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005720> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005720> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005739>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005723> (tip diameter)
 
@@ -3598,6 +3609,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005723> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005724> "round nozzle tip diameter"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005724> <https://purl.archive.org/tfsco/TFSCO_00005723>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005724> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00008003>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005725> (output velocity)
 
@@ -3649,6 +3661,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005739> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005740> "the hotplate distance to substrate is a distance to substrate, that describes the distance between a hotplate and some substrate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005740> "hotplate distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005740> <https://purl.archive.org/tfsco/TFSCO_00005720>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005740> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <http://purl.obolibrary.org/obo/TFSCO_789343c4_a6d6_40a3_bb96_c64cab3cea69>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005741> (pipette tip opening diameter setting datum)
 
@@ -3740,12 +3753,14 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005763> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007000> "The layer morphology describes the morphology of some layer"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007000> "layer morphology"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007000> <http://purl.obolibrary.org/obo/PATO_0000051>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00000007>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007001> (layer thickness)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007001> "the layer thickness describes the thickness of some layer."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007001> "layer thickness"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007001> <http://purl.obolibrary.org/obo/PATO_0000915>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00000007>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007002> (layer transmittance)
 
@@ -3783,6 +3798,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007006> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007007> "the blade distance to substrate is a distance to substrate quality, that describes the distance between some blade and some substrate"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007007> "blade distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007007> <https://purl.archive.org/tfsco/TFSCO_00005720>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007008>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007008> (blade distance to substrate setting datum)
 
@@ -3848,6 +3864,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007016> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007017> "the doctor blade edge shape describes the geometry of the part of the blade, that gets in contact with the removed excess ink during blade coating"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007017> "doctor blade edge shape"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007017> <http://purl.obolibrary.org/obo/PATO_0000052>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00007015>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007018> (solution temperature)
 
@@ -3958,6 +3975,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00007035> "camera distance to subject"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007035> "camera distance to object"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007035> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007036>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007036> (camera distance to object setting datum)
 
@@ -4029,6 +4047,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00007046> "film speed"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007046> "iso speed"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007046> <http://purl.obolibrary.org/obo/PATO_0001241>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007047>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007047> (iso speed setting datum)
 
@@ -4100,6 +4119,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007059> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007060> "the aperture is a diameter, that describes the extent of the opening that limits the incoming light onto some sensor"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007060> "aperture"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007060> <http://purl.obolibrary.org/obo/PATO_0001334>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007064>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007061> (pixel density datum)
 
@@ -4193,6 +4213,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008008> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00008009> "radiation source distance to substrate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008009> <https://purl.archive.org/tfsco/TFSCO_00005720>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00008009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00008010>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00008010> (radiation source distance to substrate setting datum)
 
