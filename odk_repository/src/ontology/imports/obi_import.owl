@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/tfsco/imports/obi_import.owl>
-<http://purl.obolibrary.org/obo/tfsco/releases/2026-10-04/imports/obi_import.owl>
+<http://purl.obolibrary.org/obo/tfsco/releases/2026-10-10/imports/obi_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2026-05-08/obi.owl>)
-Annotation(owl:versionInfo "2026-10-04")
+Annotation(owl:versionInfo "2026-10-10")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
@@ -47,6 +47,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000184>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000308>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000408>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000414>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000416>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000017>))
@@ -472,6 +473,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/IAO_0000600> "Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000600> "elucidation"@en)
 
+# Annotation Property: <http://purl.org/dc/elements/1.1/source> (Source)
+
+AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/source> "Source")
+AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/source> "Source"@en-us)
+
 # Annotation Property: <http://purl.org/dc/terms/license> (<http://purl.org/dc/terms/license>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.org/dc/terms/license> "Mark Miller")
@@ -782,7 +788,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000009> "datum label"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000009> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data item)
+# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be one or more truthful statement(s) about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
@@ -888,6 +894,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000408> "length measurement datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000408> <http://purl.obolibrary.org/obo/IAO_0000032>)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/IAO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000414> (mass measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000414> "A scalar measurement datum that is the result of measurement of mass quality"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000414> "mass measurement datum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000414> <http://purl.obolibrary.org/obo/IAO_0000032>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000416> (time measurement datum)
 
