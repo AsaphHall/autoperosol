@@ -672,6 +672,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001024> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005040>))
 
+# Class: <http://purl.obolibrary.org/obo/PATO_0001242> (wavelength)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001242> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002040>))
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001309> (duration)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002006>))
+
 # Class: <http://purl.obolibrary.org/obo/PATO_0001464> (electric potential)
 
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001464> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005005>))
@@ -1292,6 +1300,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001024> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001025> "average visible transmittance"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001025> <https://purl.archive.org/tfsco/TFSCO_00001024>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0001242>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00001026> (solar module)
 
@@ -1460,6 +1469,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001062> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001063> "process time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001063> <http://purl.obolibrary.org/obo/PATO_0001309>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002072>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <http://purl.obolibrary.org/obo/COB_0000082>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00001064> (temperature quality of a process)
 
@@ -2012,12 +2023,14 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002045> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002046> "is a rate, that indicates the quantity of measurements per time unit"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002046> "scan rate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002046> <http://purl.obolibrary.org/obo/PATO_0000161>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002058>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002047> (scan rate voltage)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002047> "a scan rate, that indicates the voltage increase or decrease"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002047> "scan rate voltage"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002047> <https://purl.archive.org/tfsco/TFSCO_00002046>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002074>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002048> (vacuum quenching)
 
@@ -2210,6 +2223,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002077> <https://purl.archive
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002078> "compliance"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002078> <http://purl.obolibrary.org/obo/PATO_0002062>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002094>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002079> (scan direction)
 
@@ -2226,16 +2240,19 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002080> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002081> "starting voltage"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002081> <https://purl.archive.org/tfsco/TFSCO_00002149>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002081> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002089>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002082> (stopping voltage)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002082> "stopping voltage"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002082> <https://purl.archive.org/tfsco/TFSCO_00002149>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002090>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002083> (voltage step size)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002083> "voltage step size"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002083> <https://purl.archive.org/tfsco/TFSCO_00002149>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002091>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002084> (illuminated iv measurement)
 
@@ -2387,11 +2404,13 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002108> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002109> "shutter status"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002109> <http://purl.obolibrary.org/obo/PATO_0001241>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002106>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002110> (thin film deposition rate)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002110> "thin film deposition rate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002110> <http://purl.obolibrary.org/obo/PATO_0000161>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002110> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000417> <https://purl.archive.org/tfsco/TFSCO_00002119>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002111> (temperature setting datum)
 
@@ -2494,6 +2513,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002124> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002125> "chopper frequency"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002125> <http://purl.obolibrary.org/obo/PATO_0002062>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002126>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002126> (chopper frequency setting datum)
 
@@ -2507,6 +2527,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002126> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002127> "voltage bias"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002127> <https://purl.archive.org/tfsco/TFSCO_00002149>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002128>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002128> (voltage bias setting datum)
 
@@ -2520,6 +2541,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002128> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002129> "is a scan rate, that indicates the step size of wavelength increase or decrease"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002129> "scan rate wavelength"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002129> <https://purl.archive.org/tfsco/TFSCO_00002046>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002130>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002130> (scan rate wavelength setting datum)
 
@@ -2743,6 +2765,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003003> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003100> "the number of averages is a process quality, that describes the number of values that match the average value in a dataset"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003100> "number of averages"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003100> <http://purl.obolibrary.org/obo/PATO_0001236>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005762>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003104> (camera)
 
@@ -2774,6 +2797,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003107> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003108> "a wavelength, that fullfills some excitation function"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003108> "excitation wavelength"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003108> <http://purl.obolibrary.org/obo/PATO_0001242>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003108> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00003114>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003109> (image pixel length)
 
@@ -3215,6 +3239,8 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005037> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00005039> "the flow rate of the ink used in slot die coating."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005039> "slot die coating flow rate"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005039> <http://purl.obolibrary.org/obo/PATO_0000161>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00005048>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00000075>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00005040> (pressure setting datum)
 
@@ -3888,6 +3914,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005762> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.archive.org/tfsco/TFSCO_00005763> "count is a process quality, that describes the result of some counting process"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00005763> "count"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005763> <http://purl.obolibrary.org/obo/PATO_0001236>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00005763> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000417> <https://purl.archive.org/tfsco/TFSCO_00005760>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007000> (layer morphology)
 
@@ -3908,6 +3935,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007001> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007002> "the layer transmittance describes the energy loss of some radiatant power that passes through some layer"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007002> "layer transmittance"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007002> <https://purl.archive.org/tfsco/TFSCO_00001024>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00000007>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007003> (sheet resistance)
 
@@ -4075,6 +4103,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.a
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <https://purl.archive.org/tfsco/TFSCO_00007028> "voltage limit"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007028> "electric potential limit"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007028> <https://purl.archive.org/tfsco/TFSCO_00007051>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007031>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007029> (sensor temperature)
 
@@ -4088,6 +4117,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007029> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007030> "the electric current limit is a limit, that describes some value some electric current can not exceed"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007030> "electric current limit"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007030> <https://purl.archive.org/tfsco/TFSCO_00007051>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007031>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007031> (electric current limit setting datum)
 
@@ -4221,6 +4251,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007050> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007051> "the limit is a process quality, that describes the restriction of some entity during some process"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007051> "limit"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007051> <http://purl.obolibrary.org/obo/PATO_0001236>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007054>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007052> (exposure time datum)
 
