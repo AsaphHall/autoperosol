@@ -606,6 +606,12 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002793> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007029>))
 
+# Class: <http://purl.obolibrary.org/obo/COB_0000035> (completely executed planned process)
+
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <https://purl.archive.org/tfsco/TFSCO_00001012>))
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002072>))
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00001063>))
+
 # Class: <http://purl.obolibrary.org/obo/COB_0001300> (device)
 
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0001300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/COB_0000110>))
@@ -625,6 +631,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000101> ObjectSomeValuesFrom(<ht
 # Class: <http://purl.obolibrary.org/obo/IAO_0000408> (length measurement datum)
 
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000221> <http://purl.obolibrary.org/obo/PATO_0000122>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <https://purl.archive.org/tfsco/TFSCO_00001145>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000367> (light emission function)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000367> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000079> <http://purl.obolibrary.org/obo/OBI_0001032>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000374> (excitation function)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000374> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000079> <https://purl.archive.org/tfsco/TFSCO_00003107>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0200000> (data transformation)
 
@@ -974,6 +992,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000020> <https://purl.archive
 AnnotationAssertion(rdfs:comment <https://purl.archive.org/tfsco/TFSCO_00000021> "the role of a thin-film layer"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00000021> "layer role"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000021> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <https://purl.archive.org/tfsco/TFSCO_00002044>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00000022> (illumination process)
 
@@ -1464,6 +1483,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://purl.a
 24.10.2022 10:42")
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001062> "time range"@de)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001062> <http://purl.obolibrary.org/obo/PATO_0002062>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002036>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00001063> (process time)
 
@@ -1476,6 +1496,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001063> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001064> "temperature quality of a process"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001064> <http://purl.obolibrary.org/obo/PATO_0002062>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002071>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00001065> (partial pressure)
 
@@ -1667,6 +1688,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001123> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00001124> "delay time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001124> <https://purl.archive.org/tfsco/TFSCO_00001062>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00001124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00003311>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00001128> (intensity)
 
@@ -1929,6 +1951,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002032> ObjectSomeValuesFrom(
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002033> "wavelength step size"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002033> <http://purl.obolibrary.org/obo/TFSCO_79f1c61e_ab2e_49a4_b245_63ac3f05ea55>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002086>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002034> (light intensity setting datum)
 
@@ -2213,11 +2236,14 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002074> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002076> "the duration over which the sensor collects incoming light"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002076> "integration time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002076> <https://purl.archive.org/tfsco/TFSCO_00001062>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002093>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <https://purl.archive.org/tfsco/TFSCO_00001035>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002077> (settling time)
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002077> "settling time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002077> <https://purl.archive.org/tfsco/TFSCO_00001062>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002092>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002078> (compliance)
 
@@ -2681,6 +2707,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002149> <http://purl.obolibra
 
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002150> "anti solvent dropping time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002150> <https://purl.archive.org/tfsco/TFSCO_00002156>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002151>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002151> (anti solvent dropping time setting datum)
 
@@ -2705,6 +2732,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002155> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00002156> "the dropping time is a time quality of a process which specifies the point in time where a dropping event happens, e.g. the dropping of an precursor in a spin coating process."@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00002156> "dropping time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002156> <https://purl.archive.org/tfsco/TFSCO_00002131>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00002156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00002157>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00002157> (dropping time setting datum)
 
@@ -2844,6 +2872,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003300> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00003301> "the delay time between the start of the rotation and the quenching"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00003301> "quenching starting delay time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003301> <https://purl.archive.org/tfsco/TFSCO_00001124>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00003301> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00003312>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00003302> (round nozzle distance to substrate)
 
@@ -4096,6 +4125,12 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007026> <https://purl.archive
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007027> "luminescence imaging is a imaging assay, that captures an image of light emission by a substance resulting from external stimuli"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007027> "luminescence imaging"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> <http://purl.obolibrary.org/obo/OBI_0000185>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <https://purl.archive.org/tfsco/TFSCO_00003104>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00002042>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00007036>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <https://purl.archive.org/tfsco/TFSCO_00007069>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007035>))
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <https://purl.archive.org/tfsco/TFSCO_00007068>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007028> (electric potential limit)
 
@@ -4174,6 +4209,7 @@ SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007037> ObjectSomeValuesFrom(
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.archive.org/tfsco/TFSCO_00007038> "the exposure time is a time quality of a process, that describes the time some sensor is exposed to light during an imaging process"@en)
 AnnotationAssertion(rdfs:label <https://purl.archive.org/tfsco/TFSCO_00007038> "exposure time"@en)
 SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007038> <https://purl.archive.org/tfsco/TFSCO_00002131>)
+SubClassOf(<https://purl.archive.org/tfsco/TFSCO_00007038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000419> <https://purl.archive.org/tfsco/TFSCO_00007037>))
 
 # Class: <https://purl.archive.org/tfsco/TFSCO_00007039> (focal length)
 
